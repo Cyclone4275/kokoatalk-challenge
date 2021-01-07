@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+    <form>
+        <div class="input__container">
+        <div class="firstname__container">
+            <label for="firstname"> Fisrtname</label> <input id="firstname" type="text" required>
+        </div>
+        <div class="lastname__container">
+            <label for="lastname">Lastname </label> <input id="lastname" type="text" required>
+        </div>
+        <div class="email__container">
+            <label for="email">Email</label> <input id="email" type="email" required>
+        </div>
+        <div class="username__container">
+            <label for="username">Username</label> <input id="username" type="text" required>
+        </div>
+        <div class="password__container">
+            <label for="password">Password</label> <input id="password" type="password" minlength="10" required>
+        </div>
+        <div class="birthdate__container">
+            <label for="birthdate" >Birth date</label> <input id="birthdate" type="date" required>
+        </div>
+        <div class="feeling__container">
+            <label for="feeling" >How happy are you?</label> <input id="feeling" type="range" list="tickmarks" required>
+                <datalist id="tickmarks">
+                <option value="0"></option>
+                <option value="10"></option>
+                <option value="20"></option>
+                <option value="30"></option>
+                <option value="40"></option>
+                <option value="50"></option>
+                <option value="60"></option>
+                <option value="70"></option>
+                <option value="80"></option>
+                <option value="90"></option>
+                <option value="100"></option>
+                </datalist>
+        </div>
+        <div class="color__container">
+            <label for="color" >What is your fav. color?</label> <input id="color" type="color" required>
+        </div>
+            <button type="submit">Create Account</button>
+        </div>
+    </form>
+  </body>
+</html>
